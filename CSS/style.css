@@ -11,7 +11,7 @@
 li, a, button, input {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500px;
-    font-size: 16px;
+    font-size: 18px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -79,17 +79,23 @@ button:hover {
 main {
     /* border: 1px red solid; */
     padding-top: 25px;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     width: 80%;
     margin: auto;
     color: white;
+    font-family: 'Stylish';
 }
 
 h1 {
     color: #edf0f1;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     font-family: 'Sigmar One'
+}
+
+h2 {
+    font-size: 50px;
+    text-decoration-line: underline; 
 }
 
 p {
@@ -97,12 +103,26 @@ p {
     font-size: 30px;
 }
 
+.game-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px red solid; */
+}
+
+.game-images img {
+    width: 200px;
+    height: 200px;
+    /* border: 1px red solid; */
+}
+
 /* Footer */
 footer p{
     background-color: black;
-    height: 100px;
+    height: 150px;
     text-align: center;
     padding-top: 40px;
     color: white;   
     font-size: 20px;
 }
+
